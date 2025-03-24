@@ -8,7 +8,7 @@ export function AuroraBackgroundDemo() {
   useEffect(() => {
     const wakeUpSidd = async () => {
       const VITE_BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-      const response = axios.get(`${VITE_BACKEND_URL}/ping`);
+      const response = await axios.get(`${VITE_BACKEND_URL}/ping`);
       console.log(response.data);
     }
     wakeUpSidd();
