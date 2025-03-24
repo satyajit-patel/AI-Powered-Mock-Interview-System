@@ -2,8 +2,8 @@
 
 A full-stack application that provides a LeetCode-style coding interview experience with AI-powered code review and feedback.
 
-## find the live link [here](coming soon)
-## find the demo video [here](coming soon)
+## find the live link [here](https://ai-powered-mock-interview-system.vercel.app)
+## find the demo video [here](https://drive.google.com/file/d/1GWcGcOICJn4xN3i-vZUbb0uY2woAV3WF/view?usp=sharing)
 
 ## Features
 
