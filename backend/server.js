@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
-const jobRoutes = require('./routes/jobs');
+const jobRoutes = require('./routes/Jobs');
 const submissionRoutes = require('./routes/submissions');
 
 // Initialize express app
