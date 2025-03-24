@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar';
 import JobList from './components/jobs/JobList';
 import JobDetail from './components/jobs/JobDetail';
 import MockInterview from './components/interview/MockInterview';
+import {AuroraBackgroundDemo} from "./components/Aurora/AuroraBackgroundDemo";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Navbar />
         <div className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<JobList />} />
+            <Route path="/" element={<AuroraBackgroundDemo />} />
+            <Route path="/joblist" element={<JobList />} />
             <Route path="/jobs/:jobId" element={<JobDetail />} />
             <Route path="/jobs/:jobId/interview/:questionId" element={<MockInterview />} />
           </Routes>
