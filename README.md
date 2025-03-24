@@ -48,7 +48,7 @@ A full-stack application that provides a LeetCode-style coding interview experie
    npm install
    ```
 
-3. Create a `config/default.json` file with your configuration:
+3. Setup your env file:
    ```
    {
      "mongoURI": "your_mongodb_connection_string",
@@ -59,7 +59,7 @@ A full-stack application that provides a LeetCode-style coding interview experie
    ```
 4. Seed the database with sample data:
    ```
-   npm run seed
+   node utils/seed.js
    ```
 
 5. Start the backend server:
